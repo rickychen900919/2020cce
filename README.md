@@ -423,7 +423,7 @@ int main()
 
 
 ```
-##week04-1
+## week04-1
 ```c
 #include <stdio.h>
 
@@ -438,11 +438,10 @@ int main()
 {
     struct POINT a;
 }
-
-
-
 ```
-##week04-2
+
+
+## week04-2
 ```c
 #include <stdio.h>
 
@@ -462,7 +461,7 @@ int main()
 
 
 ```
-##week04-3
+## week04-3
 ```c
 include <stdio.h>
 
@@ -496,7 +495,7 @@ int main()
 
 
 ```
-##week04-4
+## week04-4
 ```c
 #include <stdio.h>
 
@@ -527,7 +526,7 @@ int main()
 }
 
 ```
-##week04-5
+## week04-5
 ```c
    #include <stdio.h>
 struct POINT{
