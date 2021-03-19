@@ -407,7 +407,7 @@ int main()
             printf("p心裡小紙條記的值是:%d\n", p);
 }
 ## week03-4
-C
+```C
 #include <stdio.h>
 #include <stdlib.h>
 int a[10];
@@ -416,4 +416,22 @@ int main()
     int b[10];
     int *p= (int*) malloc(sizeof(int)*10);
     return 0;
+}
+
+
+
+##week04-1
+```c
+#include <stdio.h>
+
+struct POINT{
+
+       float x,y;
+
+};
+
+
+int main()
+{
+    struct POINT a;
 }
