@@ -12,7 +12,7 @@ int main()
  d=a%50%5/1;
  printf("%d=50*%d+5*%d+1*%d\n",a,b,c,d);
 }
-
+```
 ## 第二題 因數個數
 
 ```c
@@ -31,7 +31,7 @@ int main()
    r++;
   }
  }
- 
+ ```
  printf("%d\n",r);
 }
 ## 第三題 找倍數
@@ -58,7 +58,7 @@ int main()
  d=a%50%5/1;
  printf("%d=50*%d+5*%d+1*%d\n",a,b,c,d);
 }
-
+```
 ## 第四題 整數轉為等級
 ```c
 #include <stdio.h>
@@ -71,7 +71,7 @@ int main()
  else if(n<80&&n>=60)printf("C\n");
  else  printf("F\n");
 }
-
+```
 ## 第五題 分式化簡
 ```c
 #include <stdio.h>
@@ -103,6 +103,7 @@ int main()
     printf("%d\n%d",a ,b);
 
 }
+```
 ## 第六題 讀入整數反序列印 
 ```c
 #include <stdio.h>
@@ -123,7 +124,7 @@ int main()
  }
  printf("\n");
 }
-
+```
 ## 第七題 A的B次方函數
 ```c
 #include <stdio.h>
@@ -136,7 +137,7 @@ int MYPOWER (int a,int b)
   return ans;
  }
 
-
+```
 int main(void)
 {
  int a,b;
@@ -158,6 +159,7 @@ int main()
  
  printf("%d\n",ans);
 }
+```
 ## 第九題 判別正方形 
 ```c
 #include <stdio.h>
@@ -169,7 +171,7 @@ int main()
  if(a==b) printf("It is a square ");
  else printf("It is not a square ");
 }
-
+```
 ## 第十題 2進位轉10進位 
 ```c
 #include <stdio.h>
@@ -188,7 +190,7 @@ int main()
  n=n/10;
  printf("%d\n",ans);
 }
-
+```
 ## 第十一題 均標與前標計算
 ```c
 #include <stdio.h>
@@ -219,7 +221,7 @@ int main()
  printf("前標:%.1f\n",averageTop);
 }
  
-
+```
 ## 第十二題 計算陣列的平方值
 ```c
 #include <stdio.h>
@@ -237,7 +239,7 @@ int main()
      }
         printf("%d\n",max-min);
 }
-
+```
 ## 第十三題 大小寫轉換
 ```c
 #include <stdio.h>
@@ -261,7 +263,7 @@ int main()
 
 }
 
-
+```
 ## 第十四題 計算幾週與幾天
 ```c
 #include <stdio.h>
@@ -276,7 +278,7 @@ int main()
 
 
 }
-
+```
 ## 第十五題 計程車資計算
 ```c
 #include <stdio.h>
@@ -294,7 +296,7 @@ int main()
 
 
 }
-
+```
 ## 第十六題 兩數間可被5整除的整數
 ```c
 #include <stdio.h>
@@ -325,7 +327,7 @@ int main()
    
    
 }
-
+```
 ## 第十七題 整數間最大距離
 ```c
 #include <stdio.h>
@@ -343,7 +345,7 @@ int main()
      }
         printf("%d\n",max-min);
 }
-
+```
 
 ## week03-1
 ```c
@@ -356,7 +358,7 @@ int main()
     p = p+2;
     *p = 666;
 }
-
+```
 ##week03-2
 ```c
 #include <stdio.h>
@@ -380,7 +382,7 @@ int main()
             printAll();
 }
 
-
+```
 ## week03-3
 ```c
 #include <stdio.h>
@@ -406,6 +408,7 @@ int main()
             printAll();
             printf("p心裡小紙條記的值是:%d\n", p);
 }
+```
 ## week03-4
 ```C
 #include <stdio.h>
@@ -419,7 +422,7 @@ int main()
 }
 
 
-
+```
 ##week04-1
 ```c
 #include <stdio.h>
@@ -438,7 +441,7 @@ int main()
 
 
 
-
+```
 ##week04-2
 ```c
 #include <stdio.h>
@@ -458,7 +461,7 @@ int main()
 }
 
 
-
+```
 ##week04-3
 ```c
 include <stdio.h>
@@ -492,7 +495,7 @@ int main()
 
 
 
-
+```
 ##week04-4
 ```c
 #include <stdio.h>
@@ -523,7 +526,7 @@ int main()
 
 }
 
-
+```
 ##week04-5
 ```c
    #include <stdio.h>
