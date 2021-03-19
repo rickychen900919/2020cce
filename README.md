@@ -359,7 +359,7 @@ int main()
     *p = 666;
 }
 ```
-##week03-2
+## week03-2
 ```c
 #include <stdio.h>
 int a[5]={0,10,20,30,40};
