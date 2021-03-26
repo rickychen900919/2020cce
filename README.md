@@ -660,3 +660,112 @@ int main()
 
 
 }
+
+```
+## week-05-4
+```c
+#include <stdio.h>
+int f(int n)
+{
+   int p;
+   int m=0;
+   
+   while (n>0)
+   {
+     p=n%10;
+     n=n/10;
+     m=p+m*10;
+   
+   
+   }
+ 
+     return m;
+
+
+}
+
+
+
+int main()
+{
+   int n,m;
+   scanf("%d",&n);
+   printf("%d+%d=%d\n",n,f(m),n+f(m));
+
+
+
+
+
+
+}
+```
+## week05-5
+```c
+#include <stdio.h>
+int f(int a)
+{
+  if(a>0)
+  return a;
+  else return a*(-1);
+
+}
+
+int main(void)
+{
+	int n;
+	scanf("%d",&n);
+	printf("[%d]",f(n));
+	return 0;
+}
+
+```
+## week05-6
+```c
+#include <stdio.h>
+int a[10];
+int main()
+{
+
+    int N,n,sum=0;
+   	scanf("%d",&a[10]);
+   	for(int i=0;i<a[10];i++){
+   	   scanf("%d",&n);
+   	   sum=sum+n; 
+   	
+   	}
+   	
+     printf("%d\n",sum);
+
+}
+```
+##week05-7
+```c
+#include <stdio.h>
+int main()
+{
+   int a,b,c;
+   scanf("%d%d%d",&a,&b,&c);
+   if(a>b&&a>c) printf("%d",a);
+   else if(b>a&&b>c) printf("%d",b);
+   else printf("%d",c);
+
+    printf("\n");
+ 
+}
+```
+##week05-8
+```c
+#include <stdio.h>
+int main()
+{
+
+   int a,b;
+   scanf("%d%d",&a,&b);
+   printf("%d\n",a/b);
+   
+
+
+
+
+
+}
