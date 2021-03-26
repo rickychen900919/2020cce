@@ -662,7 +662,7 @@ int main()
 }
 
 ```
-## week-05-4
+## week-05-5
 ```c
 #include <stdio.h>
 int f(int n)
@@ -699,7 +699,7 @@ int main()
 
 }
 ```
-## week05-5
+## week05-6
 ```c
 #include <stdio.h>
 int f(int a)
@@ -719,7 +719,7 @@ int main(void)
 }
 
 ```
-## week05-6
+## week05-7
 ```c
 #include <stdio.h>
 int a[10];
@@ -738,7 +738,7 @@ int main()
 
 }
 ```
-##week05-7
+## week05-8
 ```c
 #include <stdio.h>
 int main()
@@ -753,7 +753,7 @@ int main()
  
 }
 ```
-##week05-8
+## week05-9
 ```c
 #include <stdio.h>
 int main()
