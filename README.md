@@ -552,3 +552,26 @@ int main()
 
 
 }
+```
+##  week05-1
+```c
+#include <stdio.h>
+int main()
+{
+   char line[5][10]={"deline", "proper","majority","bullet","shop"};
+   for(int i=0;i<5;i++){
+    char*p;
+       p=line[i];
+       printf("%s\n",line[i]);
+
+
+
+   }
+
+
+
+
+
+
+}
+```
