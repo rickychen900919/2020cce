@@ -841,7 +841,7 @@ int main()
 
 }
 ```
-##week10-1
+## week10-1
 ```c
 #include <stdio.h>
 #include <stdlib.h>
